@@ -1,0 +1,121 @@
+{
+    "name": "Firstname Lastname",
+    "layout": "DoubleColumn",
+    "pageTitle": "Firstname Lastname - CV",
+    "fileUrl": "https://google.com/",
+    "footer": "For an extended CV, please visit <a href='/'>this site</a><br /><a href='https://github.com/yasikovsky/hireme'>View source code on GitHub</a>",
+    "contactItems": [
+        {
+            "itemType": "PhysicalAddress",
+            "content": "Somewhere, USA"
+        },
+        {
+            "itemType": "EmailAddress",
+            "content": "lorem@ipsum.dolor"
+        },
+        {
+            "itemType": "Website",
+            "content": "testpage.pl"
+        },
+        {
+            "itemType": "GithubUsername",
+            "content": "me"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Work experience",
+            "entries": [
+                {
+                    "title": "System Architect",
+                    "tags": ["C#", ".NET Core", "React", "Typescript", "Python", "AWS", "Cloudwatch", "Sysadmin"],
+                    "subtitle": "company ltd. | since Sep 2017",
+                    "content": "• Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor\n• incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam  \n• quis nostrud exercitation ullamco laboris nisi ut aliquip\n• ex ea commodo consequat. Duis aute irure"
+                },
+                {
+                    "title": "Project Lead",
+                    "subtitle": "company ltd. | Jul 2015 – Aug 2017",
+                    "tags": ["C#", "PHP", "GitHub Projects", "Asana", "CRM"] ,
+                    "content": "• dolor in reprehenderit in voluptate velit esse cillum dolore eu fug.\n• Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod \n• d tempor incididunt ut labore"
+                },
+                {
+                    "title": "Software Engineer",
+                    "subtitle": "office llc. | Feb 2012 – Jun 2015",
+                    "tags": ["C#", "PHP", "JavaScript", "Windows Forms", "Salesforce", "Apex", "Microsoft SQL Server"] ,
+                    "content": "• et dolore magna aliqua. Ut enim ad minim veniam, \n•  quis nostrud exercitation ullamco\n• laboris nisi ut aliquip ex ea commodo consequat"
+                },
+                {
+                    "title": "Software Developer",
+                    "subtitle": "office llc. | Oct 2011 – Mar 2012",
+                    "tags": ["C#", ".NET Framework", "ASP.NET", "Microsoft SQL Server"] ,
+                    "content": "• excepteur sint occaecat cupidatat "
+                }
+            ]
+        },
+        {
+            "title": "Education",
+            "entries": [
+                {
+                    "title": "Bachelor of Science in Computer Dancing",
+                    "subtitle": "University name",
+                    "content": "Majored in Robot Dance."
+                }
+            ]
+        },
+        {
+            "title": "Languages",
+            "layout": "Horizontal",
+            "entries": [
+                {
+                    "title": "German",
+                    "subtitle": "native language"
+                },
+                {
+                    "title": "English",
+                    "subtitle": "full professional proficiency"
+                },
+                {
+                    "title": "Chinese",
+                    "subtitle": "barely know it"
+                }
+            ]
+        },
+        {
+            "title": "Technical skills",
+            "preventPrintBreak": "true",
+            "entries": [
+                {
+                    "title" : "Category 1",
+                    "tags" : ["C#", ".NET Core", ".NET Framework", "Python", "Unity", "Unit tests", "XUnit", "Arduino", "Reverse engineering"]
+                },
+                {
+                    "title" : "Category 2",
+                    "tags" : ["React", "JavaScript", "TypeScript", "ant-design"]
+                },
+                {
+                    "title" : "Category 3",
+                    "tags" : ["MySQL", "Microsoft SQL Server", "PostgreSQL", "SQLite"]
+                },
+                {
+                    "title" : "Category 4",
+                    "tags": [ "Sysadmin", "Amazon Web Services", "Virtualmin", "KiCad", "IoT", "Computer networks", "Pentesting", "Home automation"]
+                }
+            ]
+        },
+        {
+            "title": "Hobbies",
+            "layout": "BulletList",
+            "preventPrintBreak": "true",
+            "entries": [
+                {
+                    "title": "Music",
+                    "subtitle": "but only listening"
+                },
+                {
+                    "title": "Movies",
+                    "subtitle": "but only watching"
+                }
+            ]
+        }
+    ]
+}
